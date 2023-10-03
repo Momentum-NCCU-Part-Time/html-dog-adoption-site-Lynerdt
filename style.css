@@ -1,0 +1,200 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+body {font-family: 'oswald';
+font-family: 'open sans';}
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+header {
+font-family: Oswald;
+  width: 100vw;
+  height: 10vh;
+  background-color: #004175;
+  border-color: #89deef;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 18px;
+  
+}
+
+
+
+
+header a {color: white;
+  text-decoration: none;
+  margin: 6px;
+  font-size: 20px;
+}
+
+.hero {
+  width: 100vw;
+  
+  
+}
+
+
+
+.paragraphs {
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  
+
+}
+
+
+
+p {
+font-size: 16px;
+margin-bottom: 30px;
+line-height: 18px;
+
+}
+
+footer {
+  
+  display: flex;
+height: 10rem;
+
+  
+  
+
+}
+
+.donate {
+
+background:linear-gradient( rgba(85, 85, 240, 0.5),
+rgba(85, 85, 240, 0.5)), 
+url(images/donate.jpg);
+
+
+
+
+}
+
+.volunteer {
+
+  background:linear-gradient( rgba(85, 85, 240, 0.5),
+  rgba(85, 85, 240, 0.5)), 
+  url(images/volunteer.jpg);
+  
+  
+  
+  
+  }
+
+  .location {
+
+    background:linear-gradient( rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)), 
+    url(images/location.png);
+    
+    
+    
+    
+    }
+
+    .gojo {
+
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+width: 33.4%;
+font-family: oswald;
+font-size: 2rem;
+background-size: cover;
+background-position:center ;
+
+
+    }
+
+
+footer a {
+
+text-decoration: none;
+color: white;
+position: relative;
+
+}
+
+
+
+
+/* Dog adoption page */
+
+
+
+
+.top-info {
+padding-left: 60px;
+line-height: 60px;
+
+
+
+
+
+}
+
+
+.all-dogs {
+
+display: flex;
+flex-wrap: wrap;
+padding-left: 50px;
+
+
+}
+
+.all-dogs img {
+width: 100%;
+
+}
+
+
+
+.dogs {
+border-style: solid;
+border-color: rgb(152, 142, 142);
+border-radius: 9px;
+height: 450px;
+width: 400px;
+margin:10px;
+padding: 20px;
+border-width: .5px;
+
+
+}
+
+
+
+
+
+
+li.traits {
+display: inline-table;
+border-radius: 6px;
+list-style-type: none;
+background-color: #89deef;
+
+}
+
+
+
+
+
+
