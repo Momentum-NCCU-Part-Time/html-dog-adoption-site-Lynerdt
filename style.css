@@ -12,12 +12,14 @@ box-sizing: border-box;
 }
 
 
+/* Header for pages */
+
 header {
 font-family: Oswald;
   width: 100vw;
   height: 10vh;
   background-color: #004175;
-  border-color: #89deef;
+  border: 2px solid #89deef;
   color: white;
   display: flex;
   align-items: center;
@@ -25,6 +27,7 @@ font-family: Oswald;
   padding-right: 25px;
   padding-left: 25px;
   font-size: 18px;
+
   
 }
 
@@ -37,6 +40,7 @@ header a {color: white;
   font-size: 20px;
 }
 
+/* Homepage */
 .hero {
   width: 100vw;
   
@@ -58,17 +62,22 @@ header a {color: white;
 
 
 
-p {
+.paragraphs p {
 font-size: 16px;
 margin-bottom: 30px;
 line-height: 18px;
 
 }
 
+/* Footer for pages */
+
 footer {
   
   display: flex;
-height: 10rem;
+  height: 10rem;
+  
+  
+
 
   
   
@@ -140,15 +149,10 @@ position: relative;
 
 
 
-.top-info {
-padding-left: 60px;
-line-height: 60px;
 
 
 
 
-
-}
 
 
 .all-dogs {
@@ -156,6 +160,7 @@ line-height: 60px;
 display: flex;
 flex-wrap: wrap;
 padding-left: 50px;
+padding-bottom: 50px;
 
 
 }
@@ -165,6 +170,66 @@ width: 100%;
 
 }
 
+
+/* Contact page */
+
+.Contact {
+
+padding-left: 80px;
+padding-top: 50px;
+
+
+
+
+}
+
+.info {
+
+padding-top: 20px;
+font-style: italic;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.open-hours {
+
+padding-left: 30px;
+padding-top: 3px;
+}
+
+
+
+.hours {
+
+  padding-left: 80px;
+  line-height: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.hours h2 {
+padding-bottom: 40px;
+padding-left: 
+
+}
+
+
+
+/* Adoption page */
 
 
 .dogs {
